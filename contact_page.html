@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <head>
-  <title>Oliver Switzer</title>
+  <title>Hidden Gems</title>
   <style>
+        h1 {
+      color: white;
+      font-family: helvetica;
+      font-size: 40px;
+      padding: 0px;
+      margin: 0px;
+      position: relative;
+      top: -50px;
+      background: #022A5E;
+
+    }
+
+
     body {
       margin-top: 200px;
       text-align: center;
       background: url("bejeweled.png");
       background-size: cover;
       background-position: center;
+      background-position:center top; 
       color: white;
       font-family: helvetica;
     }
     
     p {
-      font-size: 22px;
+      font-size: 30px;
+    }
+
+    a { 
+      color: white; 
+      font-size: 22;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #FFB8C8;
     }
     
-   /* input {
+/*     input {
       border: 0;
       padding: 10px;
       font-size: 18px;
@@ -25,13 +49,13 @@
     input[type="submit"] {
       background: red;
       color: white;
-    }*/
-    
+    }
+    */
     img {
       width: 250px;
       height: 250px;
       border-radius: 250px;
-      border: 4px dashed white;
+      border: 4px solid black;
     }
 
     .bio {
@@ -39,27 +63,41 @@
       padding: 10px;
     }
 
+    #objective {
+      background: #022A5E;
+      padding: 7px;
+
+    }
+
   </style>
 </head>
-
+<h1> Hidden Gems </h1>
 <body>
   <div class="bio">
-    <img src="http://img59.imageshack.us/img59/6046/p3bg.jpg">
-    <p>Oliver's Bio</p> 
+    <img src="oliver.png">
+    <p>Oliver</p>
+    <a href="http://allyourcodesarebelongtous.tumblr.com/">Blog</a><br>
+    <a href="https://github.com/oliverswitzer">Github</a>
   </div>
   <div class="bio">
-    <img src="http://img59.imageshack.us/img59/6046/p3bg.jpg">
-    <p>Oliver's Bio</p> 
+    <img src="kate.png">
+      <p>Kate</p>
+    <a href="http://katepdonahue.tumblr.com/">Blog</a><br>
+    <a href="https://github.com/katepdonahue">Github</a>
   </div>
   <div class="bio">
-    <img src="http://img59.imageshack.us/img59/6046/p3bg.jpg">
-    <p>Oliver's Bio</p> 
+    <img src="keturah.png">
+    <p>Keturah</p>
+    <a href="http://keturahwalters.blogspot.com">Blog</a><br>
+    <a href="https://github.com/ketwalters">Github</a>
   </div>
   <div class="bio">
-    <img src="http://img59.imageshack.us/img59/6046/p3bg.jpg">
-    <p>Oliver's Bio</p> 
-  </div>
-  <p>Hi! I'm Oliver, a NYC-based font-end developer. Say hello!</p>
+    <img src="jonathan.png">
+    <p>Jonathan</p>
+    <a href="http://jonbrwn.wordpress.com">Blog</a><br>
+    <a href="https://github.com/jonbrwn">Github</a>
+    </div>
+  <p id = "objective">Objective: Make this page.</p>
 <!--   <input type="email" placeholder="Your email">
   <input type="submit"> -->
 </body>
