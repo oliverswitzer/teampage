@@ -57,17 +57,17 @@ a:hover {
 }
 
 .pic_scroll {
-  margin: 20px;
+  margin: auto;
   white-space: nowrap;
-  width:95%;
-  height:300px;
+  width: 800px;
+  height: 550px;
   overflow:auto;
 }
 
 .pic_scroll div {
   background-color: orange;
-  width: 350px;
-  height: 350px;
+  width: 800px;
+  height: 540px;
   display: inline-block; 
 
 }
