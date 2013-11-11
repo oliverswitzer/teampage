@@ -1,0 +1,73 @@
+h1 {
+
+color: white;
+font-family: helvetica;
+font-size: 40px;
+padding: 0px;
+margin: 0px;
+position: relative;
+top: -50px;
+background: #022A5E;
+
+}
+
+
+body {
+  margin-top: 200px;
+  text-align: center;
+  background: url("bejeweled.png");
+  background-size: cover;
+  background-position: center;
+  background-position:center top; 
+  color: white;
+  font-family: helvetica;
+}
+    
+p {
+  font-size: 30px;
+}
+
+a { 
+  color: white; 
+  font-size: 22;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFB8C8;
+}
+    
+    
+.bio img {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  border: 4px solid black;
+}
+
+.bio {
+  display: inline-block;
+  padding: 10px;
+}
+
+#objective {
+  background: #022A5E;
+  padding: 7px;
+
+}
+
+.pic_scroll {
+  margin: 20px;
+  white-space: nowrap;
+  width:95%;
+  height:300px;
+  overflow:auto;
+}
+
+.pic_scroll div {
+  background-color: orange;
+  width: 350px;
+  height: 350px;
+  display: inline-block; 
+
+}
