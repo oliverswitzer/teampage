@@ -69,6 +69,12 @@ a:hover {
   padding: 10px;
 }
 
+.bio .circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+}
+
 .banner {
   background: #022A5E;
   padding: 7px;
