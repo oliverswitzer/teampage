@@ -96,3 +96,11 @@ a:hover {
   display: inline-block;
   padding: 10px;
 }
+
+#resources_container {
+ margin: 40px 40px;
+}
+
+#bio_container {
+  margin: 40px 40px;
+}
