@@ -1,4 +1,4 @@
-h1 {
+h1, .header {
 
 color: white;
 font-family: helvetica;
@@ -7,7 +7,21 @@ padding: 0px;
 margin: 0px;
 position: relative;
 top: -50px;
-background: #022A5E;
+background: gray;
+
+}
+
+.header {
+
+color: white;
+font-family: helvetica;
+font-size: 40px;
+padding: 0px;
+margin: 0px;
+position: relative;
+top: 20px;
+bottom: 10px;
+background: gray;
 
 }
 
@@ -15,10 +29,11 @@ background: #022A5E;
 body {
   margin-top: 200px;
   text-align: center;
-  background: url("bejeweled.png");
-  background-size: cover;
+  background: url("img/dark_octo.png");
+  background-size: 5%;
   background-position: center;
-  background-position:center top; 
+  background-position: center top;
+  background-repeat: repeat;
   color: white;
   font-family: helvetica;
 }
@@ -38,7 +53,7 @@ a:hover {
 }
     
     
-.bio img {
+.circle {
   width: 250px;
   height: 250px;
   border-radius: 250px;
@@ -50,7 +65,7 @@ a:hover {
   padding: 10px;
 }
 
-#objective {
+.banner {
   background: #022A5E;
   padding: 7px;
 
@@ -70,4 +85,9 @@ a:hover {
   height: 350px;
   display: inline-block; 
 
+}
+
+.resources {
+  display: inline-block;
+  padding: 10px;
 }
