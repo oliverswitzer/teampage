@@ -27,6 +27,10 @@ p {
   font-size: 30px;
 }
 
+span {
+  font-family: 
+}
+
 a { 
   color: white; 
   font-size: 22;
@@ -61,13 +65,19 @@ a:hover {
   white-space: nowrap;
   width: 800px;
   height: 550px;
-  overflow:auto;
+  overflow: auto;
 }
 
 .pic_scroll div {
   background-color: orange;
   width: 800px;
   height: 540px;
+  overflow: hidden;
   display: inline-block; 
+}
 
+.pic_scroll p {
+  white-space: normal;
+  text-align: left;
+  clear: both;
 }
