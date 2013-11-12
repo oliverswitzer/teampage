@@ -1,22 +1,46 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <title>Hidden Gems</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+     <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
 
   </style>
+
 </head>
 <h1> Hidden Gems </h1>
 <body>
 
-  <div class="pic_scroll">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
+<!-- Main hero unit for a primary marketing message or call to action -->
+      <!--  Carousel - consult the Twitter Bootstrap docs at 
+      http://twitter.github.com/bootstrap/javascript.html#carousel -->
+      <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+        <div class="carousel-inner">
+          <div class="item active"><!-- class of active since it's the first item -->
+            <img src="1mkdir_cd.png" alt="" />
+            <div class="carousel-caption">
+              <p>Step 1: Insert text</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="2git_init.png" alt="" />
+            <div class="carousel-caption">
+              <p>Step 2: Insert text</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="3touch_after_init.png" alt="" />
+            <div class="carousel-caption">
+              <p>Step 3: Insert text</p>
+            </div>
+          </div>
+        </div><!-- /.carousel-inner -->
+        <!--  Next and Previous controls below
+              href values must reference the id for this carousel -->
+          <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+      </div><!-- /.carousel -->
 
 
   <div class="bio">
@@ -46,4 +70,17 @@
   <p id = "objective">Objective: Make this page.</p>
 <!--   <input type="email" placeholder="Your email">
   <input type="submit"> -->
+
+   <!-- Le javascript
+    ================================================== -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <!-- Bootstrap jQuery plugins compiled and minified -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel(pause);
+      });
+    </script>
 </body>
